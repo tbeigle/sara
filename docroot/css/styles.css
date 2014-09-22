@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	font: 1em/1.5 Arial, Helvetica, sans-serif;
+	color: #666;
+}
+h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 2em;
+	color: #4d657d;
+}
+p {
+	width: 90%;
+	margin: 0.5em auto 1em;
+}
+p.lp-top {
+	font-size: 1.25em;
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+}
+	#contact {
+		max-width: 100%;
+		min-width: 252px;
+		margin: auto;
+		text-align: left;
+	}
+	#contact form {
+		display: block;
+		width: 100%;
+	}
+		.row,
+		.has-overlay {
+			position: relative;
+		}
+		.row {
+			position: relative;
+			width: 250px;
+			margin: 0 auto 1em;
+			border: 1px solid #999;
+		}
+		.select-row {
+			width: 252px;
+			border: none;
+		}
+		.row,
+		.field {
+			border-radius: 6px;
+			-moz-border-radius: 6px;
+		}
+			label,
+			.field,
+			.field:hover,
+			.field:focus {
+				display: block;
+				width: 238px;
+				height: 1.5em;
+				padding: 3px 6px;
+				border: none;
+				outline: none;
+				font-size: 0.9em;
+				line-height: 1.5em;
+				color: #333;
+			}
+			label {
+				color: #888;
+			}
+			.error {
+				color: #ff0000;
+			}
+			.field.select-field {
+				width: 100%;
+				background: #fff;
+				border: 1px solid #999;
+			}
+			.field.textarea-field {
+				min-height: 4.5em;
+			}
+			.overlay-label {
+				position: absolute;
+				left: 6px;
+				top: 3px;
+				z-index: 1;
+				padding: 0;
+			}
+			.has-overlay {
+				z-index: 2;
+			}
+			.has-overlay:focus {
+				z-index: 3;
+			}
+			.show-overlay {
+				background: none;
+			}
+			.fade-overlay {
+				background: #fff;
+				background: rgba(255,255,255,0.75);
+			}
+			.hide-overlay {
+				background: #fff;
+			}
+			#submit-wrapper {
+				text-align: center;
+				padding-bottom: 1em;
+			}
+				.form-submit,
+				.form-submit:hover,
+				.form-submit:focus,
+				.form-submit:active {
+					cursor: pointer;
+					display: inline-block;
+					padding: 3px 10px;
+					background: #4d657d;
+					border: none;
+					border-radius: 6px;
+					-moz-border-radius: 6px;
+					outline: none;
+					font-weight: bold;
+					color: #fff;
+					text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+				}
